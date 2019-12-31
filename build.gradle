@@ -16,6 +16,11 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.0'
+
+    implementation 'mysql:mysql-connector-java:5.1.38'
+
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
